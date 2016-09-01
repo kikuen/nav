@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:dimgrey;
+}
+
+a{
+    display:inline-block;
+    text-decoration:none;
+    color:BLACK;
+    width:100%;
+    height:40px;
+}
+
+
+
+#geunNav{
+    width:100%;
+    background-color:white;
+}
+
+ #geunNav ul{
+    padding:0;
+    margin:0 auto;
+}
+
+#geunNav ul li{
+    list-style:none;
+    float:left;
+    text-align:center;
+    box-sizing: border-box;
+    border-left:1px solid whitesmoke;
+    border-right:1px solid whitesmoke;
+    color:BLACK;
+}
+
+#geunNav ul li:hover{
+    cursor:pointer;
+    background-color:aliceblue;
+    color:BLACK;
+}
+
+.geunSubDiv{
+    clear:both;
+    display:none;
+    text-align:center;
+}
+
+.geunSubDiv .geunSpanWrap{
+    text-align:center;
+    background-color: aliceblue;
+    color:BLACK;
+    height:40px;
+    line-height:40px;
+}
