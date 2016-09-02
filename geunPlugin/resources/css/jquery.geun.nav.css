@@ -35,14 +35,16 @@ a{
     float:left;
     text-align:center;
     box-sizing: border-box;
-    border-left:1px solid whitesmoke;
-    border-right:1px solid whitesmoke;
+    border-left:1px solid WHITE;
+    border-right:1px solid WHITE;
     color:BLACK;
 }
 
 #geunNav ul li:hover{
     cursor:pointer;
     background-color:aliceblue;
+    border-left:1px solid whitesmoke;
+    border-right:1px solid whitesmoke;
     color:BLACK;
 }
 
@@ -50,12 +52,19 @@ a{
     clear:both;
     display:none;
     text-align:center;
+    background-color: aliceblue;
 }
 
 .geunSubDiv .geunSpanWrap{
     text-align:center;
-    background-color: aliceblue;
     color:BLACK;
     height:40px;
     line-height:40px;
 }
+
+.geunSubDiv .geunSpanWrap:hover{
+    background:RGBA(255,255,255,1);
+    
+}
+
+
