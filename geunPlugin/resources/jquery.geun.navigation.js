@@ -46,9 +46,7 @@
     }
 
     $.fn[pluginName] = function(options){
-      return   this.each(function(){
-          $.data(this,"plugin_"+pluginName,new Plugin(this,options));
-      });
+      return  new Plugin(this,options);
     };
 
 })(jQuery,window,document);   
